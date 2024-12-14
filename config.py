@@ -9,5 +9,9 @@ API_ID = int(os.environ.get("API_ID", "20166660"))
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "ac8d8536e2869da1e2388cea87d3e5f7")
 
+# Your Owner / Admin Id For Broadcast 
+ADMINS = int(os.environ.get("ADMINS", ""))
+
 #Database 
 DB_URI = os.environ.get("DB_URI", "mongodb+srv://sarinaviolet:Bycvt1Zrm91wDAwQ@cluster0.z5hz1.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = os.environ.get("DB_NAME", "SubhoBhai")
